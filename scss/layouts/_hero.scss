@@ -1,4 +1,5 @@
 .hero {
+
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -12,7 +13,7 @@
     background-size: cover;
 
     @include mq(mobile-only) {
-        width: 480px
+        max-width: 100%;
     }
 }
 
