@@ -1,0 +1,57 @@
+.team-section {
+    background-color: var(--second-bg-cl);
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    &__item {
+        max-width: 100%;
+        height: auto;
+        background-color: var(--main-bg-cl);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+        @include mq(tablet) {
+            width: 354px;
+        }
+
+        @include mq(desktop) {
+            width: 270px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__name {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: var(--second-cl);
+    }
+
+    &__position {
+        margin-top: 10px;
+
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: var(--main-cl);
+    }
+}

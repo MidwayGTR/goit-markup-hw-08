@@ -1,0 +1,52 @@
+.footer-address {
+    margin-right: 70px;
+
+
+    @include mq(mobile-only) {
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+
+    @include mq(tablet-only) {
+        margin-right: 165px;
+        margin-bottom: 60px;
+    }
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.address {
+    margin-top: 20px;
+
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    &__list .link:hover,
+    &__list .link:focus {
+        color: var(--acent-cl);
+    }
+
+    &__link {
+        color: var(--bg-cl);
+        transition: color var(--animation);
+    }
+
+    &__contacts {
+        margin-top: 9px;
+        display: block;
+        color: var(--footer-color);
+        transition: color var(--animation);
+    }
+
+
+}

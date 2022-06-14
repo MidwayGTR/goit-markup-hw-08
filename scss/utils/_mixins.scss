@@ -1,0 +1,67 @@
+// media screen
+@mixin mq($type) {
+    $mobile: 480px;
+    $tablet: 768px;
+    $desktop: 1200px;
+
+    @if $type =='mobile-only' {
+        @media screen and (max-width: #{$tablet - 0.02}) {
+            @content
+        }
+    }
+
+    @if $type =='mobile' {
+        @media screen and (min-width: $mobile) {
+            @content
+        }
+    }
+
+    @if $type =='tablet-only' {
+        @media screen and (min-width: $tablet) and (max-width: #{$desktop - 0.02}) {
+            @content
+        }
+    }
+
+    @if $type =='tablet' {
+        @media screen and (min-width: $tablet) {
+            @content
+        }
+    }
+
+    @if $type =='not-desktop' {
+        @media screen and (max-width: #{$desktop - 0.02}) {
+            @content
+        }
+    }
+
+    @if $type =='desktop' {
+        @media screen and (min-width: $desktop) {
+            @content
+        }
+    }
+}
+
+
+
+@mixin btn {
+    min-width: 200px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    border: none;
+    background-color: var(--bacground-cl);
+    color: var(--bg-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: 0px;
+
+    cursor: pointer;
+    transition: background-color var(--animation);
+
+}

@@ -1,0 +1,115 @@
+.social {
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 44px;
+        height: 44px;
+
+        background-color: #ffffff;
+
+        border-radius: 50%;
+        transition: background-color var(--animation);
+
+        &:hover,
+        &:focus {
+            background-color: #2196F3;
+        }
+
+        &:hover .social__icon,
+        &:focus .social__icon {
+            fill: #ffffff;
+        }
+    }
+
+    &__icon {
+        fill: #AFB1B8;
+    }
+}
+
+// footer
+// join-group
+.join-group {
+    margin-right: 93px;
+
+    @include mq(mobile-only) {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    @include mq(tablet-only) {
+        margin-right: 0;
+    }
+
+    &__subtitle {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
+        @include mq(mobile-only) {
+            text-align: center;
+            width: 100%;
+            margin-right: 0;
+        }
+
+    }
+
+    &__list {
+        display: flex;
+
+        @include mq(mobile-only) {
+            justify-content: center;
+
+        }
+
+
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 44px;
+        height: 44px;
+
+        background-color: rgba(255, 255, 255, 0.1);
+
+        border-radius: 50%;
+        transition: background-color var(--animation);
+
+        &:hover,
+        &:focus {
+            background-color: #2196F3;
+        }
+
+        &:hover .join-group__icon,
+        &:focus .join-group__icon {
+            fill: #ffffff;
+        }
+    }
+
+    &__icon {
+        fill: #ffffff;
+    }
+}

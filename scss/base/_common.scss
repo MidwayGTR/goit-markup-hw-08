@@ -1,0 +1,63 @@
+body {
+
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-cl);
+    background-color: var(--main-bg-cl);
+}
+
+
+.section {
+
+    @include mq(mobile-only) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    // phone screen
+    @include mq(mobile) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    // tablet screen
+    @include mq(tablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    // pc screen
+    @include mq(desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+
+    &__title {
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: var(--second-cl);
+
+        @include mq(mobile-only) {
+            display: none;
+        }
+
+
+        @include mq(not-desktop) {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 1.18;
+
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+
+    }
+}

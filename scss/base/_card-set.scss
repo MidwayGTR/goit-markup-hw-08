@@ -1,0 +1,10 @@
+// Сітка для колекції елементів
+.work--grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+}
+
+.work--grid-item {
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}

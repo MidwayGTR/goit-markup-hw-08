@@ -1,0 +1,8 @@
+.btn {
+    @include btn;
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color-hover);
+    }
+}

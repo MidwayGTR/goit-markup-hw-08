@@ -1,0 +1,27 @@
+:root {
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+    /* text colors */
+    --acent-cl: #2196F3;
+    --main-cl: #757575;
+    --second-cl: #212121;
+    --bg-cl: #FFFFFF;
+    --button-color-hover: #188CE8;
+    --footer-color: rgba(255, 255, 255, 0.6);
+
+    /* background colors */
+    --acent-bg-cl: #2F303A;
+    --bacground-cl: #2196F3;
+    --main-bg-cl: #FFFFFF;
+    --second-bg-cl: #F5F4FA;
+
+    /* Grid-items */
+    --items: 1;
+    --indent: 30px;
+
+    /* transition hover */
+    --transition-duration: 250ms;
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --animation: var(--transition-duration) var(--transition-timing-function);
+}

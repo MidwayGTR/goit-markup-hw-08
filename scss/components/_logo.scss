@@ -1,0 +1,28 @@
+.logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--acent-cl);
+
+
+    @include mq(mobile-only) {
+        justify-content: center;
+    }
+
+
+}
+
+.header__logo {
+    margin-right: 93px;
+}
+
+.logo__accent {
+    color: var(--second-cl);
+}
+
+.footer__logo {
+    color: var(--bg-cl);
+}
