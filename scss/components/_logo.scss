@@ -8,15 +8,21 @@
     color: var(--acent-cl);
 
 
-    @include mq(mobile-only) {
-        justify-content: center;
-    }
-
-
+    // @include mq(mobile-only) {
+    //     justify-content: center;
+    // }
 }
 
-.header__logo {
-    margin-right: 93px;
+@include mq(tablet) {
+    .header__logo {
+        margin-right: 88px;
+    }
+}
+
+@include mq(desktop) {
+    .header__logo {
+        margin-right: 93px;
+    }
 }
 
 .logo__accent {
