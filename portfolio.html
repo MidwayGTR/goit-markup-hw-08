@@ -38,10 +38,11 @@
 
                 <ul class="list mobile-menu__nav">
                     <li class="mobile-menu__item">
-                        <a class="link mobile-menu__link mobile-menu__link--current" href="./index.html">Студия</a>
+                        <a class="link mobile-menu__link" href="./index.html">Студия</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="link mobile-menu__link" href="./portfolio.html">Портфолио</a>
+                        <a class="link mobile-menu__link mobile-menu__link--current"
+                            href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="mobile-menu__item">
                         <a href="" class="link mobile-menu__link">Контакты</a>
@@ -132,8 +133,39 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src=" ./images/portfolio/texnocrac.jpg"
-                                    alt="Веб-сайт Технокряк" width="370" height="294">
+
+<picture>
+    <!-- фото -->
+<!-- набір зображень для пк -->
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img_lg.jpg    1x, 
+./images/portfolio/img@2x_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img_md.jpg    1x, 
+./images/portfolio/img@2x_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img_sm.jpg    1x, 
+./images/portfolio/img@2x_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img_sm.jpg" 
+alt="Сайт технокряк"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture>                                
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -148,8 +180,38 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/poster.jpg"
-                                    alt="Постер New Orlean vs Golden Star" width="370" height="294">
+<picture>
+    <!-- фото -->
+<!-- набір зображень для пк -->
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-1_lg.jpg    1x, 
+./images/portfolio/img@2x-1_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-1_md.jpg    1x, 
+./images/portfolio/img@2x-1_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-1_sm.jpg    1x, 
+./images/portfolio/img@2x-1_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-1_sm.jpg" 
+alt="Дизайнерський постер фірми"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture>
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -164,8 +226,41 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/seafood.jpg" alt="Ресторан Seafood"
-                                    width="370" height="294">
+
+    <!-- фото-2 -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-2_lg.jpg    1x, 
+./images/portfolio/img@2x-2_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-2_md.jpg    1x, 
+./images/portfolio/img@2x-2_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-2_sm.jpg    1x, 
+./images/portfolio/img@2x-2_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-2_sm.jpg" 
+alt="Ресторан Seafood"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture>                                
+
+
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -180,8 +275,41 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/prime.jpg" alt="Наушники" width="370"
-                                    height="294">
+
+    <!-- фото -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-3_lg.jpg    1x, 
+./images/portfolio/img@2x-3_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-3_md.jpg    1x, 
+./images/portfolio/img@2x-3_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-3_sm.jpg    1x, 
+./images/portfolio/img@2x-3_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-3_sm.jpg" 
+alt="Наушники"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture> 
+
+                                
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -196,8 +324,41 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/boxes.jpg" alt="Две коробочки"
-                                    width="370" height="294">
+
+    <!-- фото -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-4_lg.jpg    1x, 
+./images/portfolio/img@2x-4_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-4_md.jpg    1x, 
+./images/portfolio/img@2x-4_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-4_sm.jpg    1x, 
+./images/portfolio/img@2x-4_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-4_sm.jpg" 
+alt="Две коробочки"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture> 
+
+
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -212,8 +373,41 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/inspiration.jpg"
-                                    alt="Веб-сайт Inspiration has no Borders" width="370" height="294">
+
+    <!-- фото -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-5_lg.jpg    1x, 
+./images/portfolio/img@2x-5_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-5_md.jpg    1x, 
+./images/portfolio/img@2x-5_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-5_sm.jpg    1x, 
+./images/portfolio/img@2x-5_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-5_sm.jpg" 
+alt="Веб-сайт Inspiration has no Borders"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture> 
+
+
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -228,8 +422,41 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/book.jpg" alt="Книга с картинками"
-                                    width="370" height="294">
+
+    <!-- фото -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-6_lg.jpg    1x, 
+./images/portfolio/img@2x-6_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-6_md.jpg    1x, 
+./images/portfolio/img@2x-6_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-6_sm.jpg    1x, 
+./images/portfolio/img@2x-6_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-6_sm.jpg" 
+alt="Книга с картинками"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture> 
+
+                            
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -244,8 +471,41 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/lab.jpg"
-                                    alt="<Бирка з надписью Lab el tag>" width="370" height="294">
+
+     <!-- фото -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-7_lg.jpg    1x, 
+./images/portfolio/img@2x-7_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-7_md.jpg    1x, 
+./images/portfolio/img@2x-7_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-7_sm.jpg    1x, 
+./images/portfolio/img@2x-7_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-7_sm.jpg" 
+alt="Бирка з надписью Lab el tag"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture> 
+                                
+
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения
                                     о компании или частном лице.</p>
@@ -260,8 +520,40 @@
                     <li class="project__item">
                         <a class="link project__link" href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="project__thumb">
-                                <img class="project__img" src="./images/portfolio/growing.jpg"
-                                    alt="Приложение на ноутбуке" width="370" height="294">
+
+     <!-- фото -->
+<!-- набір зображень для пк -->
+<picture>
+<source media="(min-width: 1200px)"
+srcset="
+./images/portfolio/img-8_lg.jpg    1x, 
+./images/portfolio/img@2x-8_lg.jpg 2x
+" 
+type="image/jpg">
+<!-- набір зображень для планшету -->
+<source media="(min-width: 768px)"
+srcset="
+./images/portfolio/img-8_md.jpg    1x, 
+./images/portfolio/img@2x-8_md.jpg 2x
+" 
+type="image/jpg">
+
+<!-- набір зображень для телефону -->
+<source media="(max-width: 767px)"
+srcset="
+./images/portfolio/img-8_sm.jpg    1x, 
+./images/portfolio/img@2x-8_sm.jpg 2x
+" 
+type="image/jpg" >  
+<img 
+class="project__img"
+src="./images/portfolio/img-8_sm.jpg" 
+alt="Приложение на ноутбуке"                    
+width="450"
+height="294" 
+loading="lazy">
+</picture> 
+
 
                                 <p class="project__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения

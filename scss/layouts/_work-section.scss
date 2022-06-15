@@ -4,6 +4,10 @@
         display: none;
     }
 
+    @include mq(tablet-only) {
+         display: none;
+    }
+
     padding-top: 0;
 
 
