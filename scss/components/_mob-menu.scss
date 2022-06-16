@@ -134,3 +134,8 @@
     display: none;
   }
 }
+
+body.is-open {
+  overflow: hidden;
+  height: 100%;
+}
