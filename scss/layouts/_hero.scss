@@ -12,6 +12,16 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+  @include mq(mobile) {
+    padding-bottom: 118px;
+    padding-top: 118px;
+  }
+
+  @include mq(tablet) {
+    padding-bottom: 118px;
+    padding-top: 118px;
+  }
+
   // Завантаження звичайного фонового зображення для всіх типів пристроїв та Retina
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-section/bg-img_sm.jpg);
