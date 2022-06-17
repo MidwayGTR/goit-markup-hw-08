@@ -4,7 +4,10 @@
 
   &__conteiner {
     display: flex;
-    padding: 16px 0px;
     align-items: center;
+
+    @include mq(mobile-only) {
+      padding: 16px 0px;
+    }
   }
 }
